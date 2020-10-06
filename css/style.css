@@ -1,0 +1,26 @@
+ #bg-heder{
+    margin: 0 auto;
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "cross cross icon-1"
+      "cross cross icon-2"
+      "icon-4 icon-5 icon-6";
+  }
+  
+  .cross { grid-area: cross; }
+  
+  .icon-1 { grid-area: icon-1; }
+  
+  .icon-2 { grid-area: icon-2; }
+  
+  .icon-4 { grid-area: icon-4; }
+  
+  .icon-5 { grid-area: icon-5; }
+  
+  .icon-6 { grid-area: icon-6; }
+  
